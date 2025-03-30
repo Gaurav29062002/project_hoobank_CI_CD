@@ -2,7 +2,8 @@ name: My First CI CD Project
 
 on:
   push:
-  branches: [main]
+  branches: 
+    - main
   workflow_dispatch:
 
 permissions:
